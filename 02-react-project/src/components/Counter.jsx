@@ -15,8 +15,7 @@ const Counter = () => {
     <div>
       <h2>Count: {count}</h2>
       <button onClick={increment} style={buttonStyle}>Increase</button>
-      <button 
-        onClick={decrement} 
+      <button onClick={decrement} 
         style={{
           ...buttonStyle,
           backgroundColor: count === 0 ? '#ccc' : '#f44',
