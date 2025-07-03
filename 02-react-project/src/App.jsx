@@ -2,6 +2,13 @@ import Counter from './components/Counter';
 import ProductCard from './components/ProductCard';
 function App() {
 
+  /*
+  Example of state components like useState:-
+
+  state is a special variable that determines how a component behaves and what it renders.
+  When state changes, the component automatically re-renders.
+  */
+
   // return (
   //    <div style={{ textAlign: 'center', marginTop: '50px' }}>
   //     <h1>Counter-Number</h1>
@@ -10,7 +17,13 @@ function App() {
   // )
 
 
-  // Example of props in reactjs
+  /*
+  Example of props in reactjs
+
+  A mechanism for passing data from a parent component to a child component. 
+  Props are read-only and help in creating reusable and configurable components.
+  */
+ 
   const handleBuy = (productName) => {
     alert(`You purchased: ${productName}`);
   };
