@@ -5,7 +5,7 @@ const Counter = () => {
 
   const increment = () => setCount(count + 1);
 
-  const decrement = () => setCount(count - 1); // optional: add check if needed
+  const decrement = () => setCount(count - 1);
 
   return (
     <div>
