@@ -28,3 +28,11 @@
 **Routers**
 - **React Router**
 
+**Writing CSS**
+- **Tailwing CSS**
+- **CSS Modules**
+
+**Testing**
+- **Jest**
+- **React-testing-library**
+
