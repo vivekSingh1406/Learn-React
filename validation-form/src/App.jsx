@@ -1,10 +1,12 @@
+import DynamicRows from "./chandan/DynamicRows"
 import UserForm from "./component/UserForm"
 
 function App() {
 
   return (
     <>
-     <UserForm />
+     {/* <UserForm /> */}
+     <DynamicRows />
     </>
   )
 }
